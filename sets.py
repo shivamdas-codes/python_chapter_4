@@ -38,5 +38,7 @@ set0.add(4)
 # set0.add(6,7).....we cant assign multiple values to print.
 set0.add("hello world")
 print(set0)
+# NOTE: IF WE TRY TO PRINT THE VALUE WHICH IS NOT PRESENT IN THE SET IN WILL THROUGH ERROR
 
 
+# (2). remove()
