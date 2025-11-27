@@ -75,3 +75,10 @@ print(set1.union(set2)) # it will return the combination of both the sets which 
 print(set1)
 print(set2)
 # in this case it doesn't change the original set 
+
+
+# (6). intersection()
+set3 = {1,2,3,4}
+set4 = {3,5,6,7}
+print(set3.intersection(set4))
+# it will return the common value between both the sets which is {3}
