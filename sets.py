@@ -62,3 +62,16 @@ print(num)
 # (4). pop()
 random_list = {"hello", "world", "hi", "data"}
 print(random_list.pop()) # it just randomly pop the value out of the set
+print(type(random_list))
+print(len(random_list))
+
+
+# important SET METHODS:
+# (5). union()
+set1 = {1,2,3,4}
+set2 = {3,4,5}
+print(set1.union(set2)) # it will return the combination of both the sets which is {1,2,3,4,5}
+
+print(set1)
+print(set2)
+# in this case it doesn't change the original set 
