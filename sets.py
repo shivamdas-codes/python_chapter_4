@@ -79,7 +79,6 @@ print(set2)
 
 # (6). intersection()
 set3 = {1,2,3,4}
-set4 = {3,5,6,7}
+set4 = {3,5,6}
 print(set3.intersection(set4))
 # it will return the common value between both the sets which is {3}
-
