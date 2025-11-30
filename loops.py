@@ -16,4 +16,15 @@ while j <= 100:
     print("hello world", j) # the 'j' represent that how many times the hello world will print
     j += 1
     print(j)    # this represent how many times the loops has occured
-    
+
+
+
+#DOUBT PROBLEM:
+students_marks = 10
+i = students_marks # we can able to change the variable to the new variable name. 
+while i <= 48:
+    print("need to improve", i)
+    i += 2
+students_marks = i # changed to the original name.
+del i
+print(students_marks)
