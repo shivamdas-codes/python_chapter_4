@@ -1,3 +1,5 @@
+# (1).WHILE LOOP:
+
 # while True:
 #     print("hello")  
 """in this case the loop never stop at any point because the givenh value is always 'true'
