@@ -4,10 +4,12 @@
 #     print("hello")  
 """in this case the loop never stop at any point because the givenh value is always 'true'
 if we want to stop loop at any point then the value should contain false at any point."""
+
 while True:
     print("hello world")
     break
 # this is the correct format to stop any infinite loop by using 'break' statement.
+
 
 
 i = 1       # variable/iterator 'i' is assigned by 1
