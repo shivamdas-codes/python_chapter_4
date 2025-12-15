@@ -78,11 +78,35 @@
 #     i += 1
 
 
-# FOR LOOP():
-LIST = [1,2,3,4]
-for i in LIST:  # each item of the list will be printed in a new line
-    print(i)
+# # FOR LOOP():
+# LIST = [1,2,3,4]
+# for i in LIST:  # each item of the list will be printed in a new line
+#     print(i)
 
-name = "shivam"
-for i in name:  # each letter will be printed in a new line
-    print(i)
+# name = "shivam"
+# for i in name:  # each letter will be printed in a new line
+#     print(i)
+
+# # for loop with else statement:
+# list = [1,2,3,4,5]
+# for i in list:
+#     print(i)
+# else:
+#     print("loop ended") #in this case after the loop ends the else statement will be executed which is not necessary
+
+# name = "shivam das"
+# for i in name:
+#     if i == "a":
+#         print("found")
+#         break
+#     print(i)
+# else:
+#     print("not found")
+
+
+name = "shivam das"
+count = 0
+for i in name:
+    if i == "a":
+        count += 1
+        print("count is:",count)
