@@ -125,3 +125,8 @@ for i in range(1,5):  # this is the starting and stopping point
 
 for i  in range(1,11,2): # this is the starting, stopping and incrementing point (here 2 is the incrementing value)
     print(i)
+
+
+for i in range(10):
+    if i % 2 == 0:
+        print("even number:",i)
